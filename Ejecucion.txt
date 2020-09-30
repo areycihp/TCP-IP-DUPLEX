@@ -1,0 +1,10 @@
+AREYCI HUERTA PATIÑO	| PROTOCOLOS DE RED
+Para compilar y ejecutar los programas de client2 y server2:
+
+gcc `pkg-config gtk+-3.0 --cflags` server2.c -o server2 `pkg-config gtk+-3.0 --libs`
+
+./server2
+gcc `pkg-config gtk+-3.0 --cflags` client2.c -o client2 `pkg-config gtk+-3.0 --libs`
+
+./client2
+
